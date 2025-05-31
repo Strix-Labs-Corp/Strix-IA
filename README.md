@@ -12,6 +12,7 @@ Cada drone opera de forma autônoma, realizando patrulhas, identificando aves em
 
 ## 📁 Estrutura de Pastas
 
+```
 StrixIA/
 ├─ main.py                     # Script principal de inicialização do sistema
 └─ Services/
@@ -21,7 +22,7 @@ StrixIA/
   ├─ SoundPlay/              # Módulo de reprodução de sons (predadores, ruídos de dispersão)
   ├─ Metrics/                # Coleta de métricas e histórico de ações para análise e melhoria contínua
   ├─ Database/               # Interface de persistência para salvar métricas e eventos capturados
-
+```
 
 ## ⚙️ Tecnologias e Conceitos
 
