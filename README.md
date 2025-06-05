@@ -12,7 +12,7 @@ Cada drone opera de forma autônoma, realizando patrulhas, identificando aves em
 
 ---
 
-## Funcionalidades e Coleta de Dados
+## 🚀 Funcionalidades e Coleta de Dados
 
 * **Detecção de Pássaros:** Reconhecimento visual de aves utilizando IA.
 * **Ações de Dispersão:**
@@ -27,9 +27,9 @@ Cada drone opera de forma autônoma, realizando patrulhas, identificando aves em
 
 ---
 
-## Detalhes do Projeto
+## 📋 Detalhes do Projeto
 
-### Cenários de Uso
+### ✈️ Cenários de Uso
 
 * **Protótipo:** Uso recomendado em ambiente de testes controlados ou demonstrações via computador.
 * **Protótipo Físico:** Recomendado o uso de drone modular.
@@ -60,9 +60,9 @@ StrixIA/
 ---
 ---
 
-## Requisitos Técnicos
+## 🔧 Requisitos Técnicos
 
-### Hardware Recomendado
+### 🖥️ Hardware Recomendado
 
 * **Drone Modular:** Modelos como F450 + Pixhawk Kit (recomendado), S500 / S550.
     * A modularidade do drone permite a montagem tanto com a CPU para controlar ele todo e rodar a IA, quanto montar os periféricos no drone.
@@ -89,7 +89,7 @@ StrixIA/
 
 ---
 
-## Possíveis Nomes para o Projeto
+## 🏷️ Possíveis Nomes para o Projeto
 
 * **Strix.IA**
 * **STRIX Labs**
