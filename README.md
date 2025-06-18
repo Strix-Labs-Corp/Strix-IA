@@ -1,4 +1,4 @@
-# 🦉 Strix IA - Drone Autônomo com IA para Dispersão Inteligente de Aves
+# 🦉 Strix IA - Sistema de Monitoramento Autônomo com IA para Dispersão de Aves Predatórias
 
 StrixIA é um sistema inteligente embarcado em drones autônomos, desenvolvido com foco na identificação, monitoramento e dispersão estratégica de aves em áreas sensíveis. A aplicação principal é o controle de aves em lavouras (como arrozais), prevenindo perdas de safra, mas o sistema é totalmente escalável para uso em zonas de segurança aeroportuária, ajudando a evitar colisões com aeronaves (bird strike).
 
