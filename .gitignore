@@ -192,3 +192,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+#Miscellaneous
+#  Miscellaneous files or folders that are not specific to any tool or framework.
+Notes.md
