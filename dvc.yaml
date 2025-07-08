@@ -1,0 +1,9 @@
+stages:
+  train:
+    cmd: yolo train model=yolov11.pt data=AI/datasets/data.yaml epochs=100 imgsz=640 batch=16
+    deps:
+      - AI/datasets/images
+      - AI/datasets/labels
+      - AI/datasets/data.yaml
+    outs:
+      - AI/models  # onde o YOLO salva os modelos treinados e resultados
