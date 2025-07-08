@@ -47,7 +47,7 @@ Cada drone opera de forma autônoma, realizando patrulhas, identificando aves em
 
 ```
 StrixIA/
-├─ main.py                     # Script principal de inicialização do sistema
+├─ main.py                   # Script principal de inicialização do sistema
 └─ Services/
   ├─ BirdView/               # Módulo de Visão Computacional para detecção e rastreamento de aves
   ├─ FlyControl/             # Módulo de controle de voo (rotas, manobras evasivas, perseguição)
@@ -55,6 +55,16 @@ StrixIA/
   ├─ SoundPlay/              # Módulo de reprodução de sons (predadores, ruídos de dispersão)
   ├─ Metrics/                # Coleta de métricas e histórico de ações para análise e melhoria contínua
   ├─ Database/               # Interface de persistência para salvar métricas e eventos capturados
+├─ AI/                       # 🧠 NOVO: Tudo relacionado à IA e treinamento
+  ├─ models/                 # Modelos treinados (.pt, .pkl, etc.)
+  ├─ datasets/               # Dataset local (ou symbolic links se usar DVC)
+  ├─ annotations/            # Anotações YOLO (labels) e arquivos auxiliares
+  ├─ data.yaml               # Arquivo de configuração do dataset para o YOLO
+  ├─ train.py                # Script que treina o modelo
+  ├─ infer.py                # Script de teste/validação com imagens ou vídeos
+  └─ utils.py
+├─ .dvc/                     # Se usar DVC para versionar dataset
+└─ dvc.yaml                  # Pipeline DVC (opcional)
 ```
 
 ---
