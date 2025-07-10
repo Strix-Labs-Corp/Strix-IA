@@ -196,3 +196,5 @@ cython_debug/
 #Miscellaneous
 #  Miscellaneous files or folders that are not specific to any tool or framework.
 Notes.md
+runs/
+yolo*.pt
