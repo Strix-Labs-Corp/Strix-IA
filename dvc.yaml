@@ -1,6 +1,6 @@
 stages:
   train:
-    cmd: yolo train model=yolov11.pt data=AI/datasets/data.yaml epochs=100 imgsz=640 batch=16
+    cmd: yolo train model=yolo11n.pt data=AI/datasets/data.yaml epochs=100 imgsz=640 batch=16
     deps:
       - AI/datasets/images
       - AI/datasets/labels
